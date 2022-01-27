@@ -18,15 +18,23 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', function () {
-    return view('Home');
+    return view('Home', [
+        "link" => "home",
+        "title" => "fahriza || home"
+    ]);
 });
 Route::get('/about', function () {
     return view('about', [
+        "link" => "about",
+        "title" => "fahriza || about",
         "nama" => "Fahriza Fattah",
         "Instagram" => "@fahrizafgh;_",
         "gambar" => "yaaa.jpeg"
     ]);
 });
-Route::get('/Gallery', function () {
-    return view('Gallery');
+Route::get('/gallery', function () {
+    return view('gallery', [
+        "link" => "gallery",
+        "title" => "fahriza || gallery",
+    ]);
 });

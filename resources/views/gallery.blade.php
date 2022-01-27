@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" conten="IE=edde">
-    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
-    <title>Fahriza | Gallery</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <h1> Halaman Gallery </h1>
+@extends("layouts.main")
 
-    <script src="js/script.js"></script>
-</body>
-</html>
+@section('container')
+<h1>Halaman Galery</h1>
+@endsection
